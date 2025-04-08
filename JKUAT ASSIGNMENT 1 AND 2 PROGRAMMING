@@ -1,0 +1,25 @@
+# Define the main function
+def main():
+    # Ask for the user's first name
+    first_name = input("Please enter your first name: ")
+
+    # Ask for the user's second name
+    second_name = input("Please enter your second name: ")
+
+    # Ask for the user's age
+    age = int(input("Please enter your age: "))
+
+    # Calculate the years left to retire at age 60
+    retirement_age = 60
+    years_left = retirement_age - age
+
+    # Check if the user has already reached or passed the retirement age
+    if years_left <= 0:
+        print(f"{first_name} {second_name}, you have already reached or passed the retirement age.")
+    else:
+        # Print the personalized message
+        print(f"{first_name} {second_name}, you have {years_left} years left for you to retire. ALL THE BEST!")
+
+# Call the main function to execute the program
+if __name__ == "__main__":
+    main()
