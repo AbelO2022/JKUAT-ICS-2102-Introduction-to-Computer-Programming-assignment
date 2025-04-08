@@ -1,0 +1,9 @@
+def find_largest(numbers):
+    largest = numbers[0]  # Step 1: Initialize with the first number
+    for num in numbers:    # Step 2: Loop through each number
+        if num > largest:  # Step 3: If num is larger, update largest
+            largest = num
+    return largest         # Step 5: Return the largest number
+
+numbers = [4, 3, 6, 2, 9]
+print(find_largest(numbers))  # Output: 9
