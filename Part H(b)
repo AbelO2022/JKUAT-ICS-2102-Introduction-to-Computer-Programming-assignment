@@ -1,0 +1,5 @@
+#Creating a function that welcomes students to coding.
+def welcome_to_coding(student_name):
+    print(f"Welcome to coding, {student_name}! We're excited to have you on this learning journey.")
+#When using My name "Abel" the output should be.
+#Welcome to coding Abel! We're excited to have you on this learning journey.
